@@ -1,5 +1,5 @@
 # Recursive_function
-##Factorial
+## Factorial
 ```
 int Factorial(int i)
 {
@@ -22,7 +22,7 @@ int main()
 	return 0;
 }
 ```
-###Fibona
+### Fibona
 ```
 int Fibo(int i)
 {
