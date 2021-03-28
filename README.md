@@ -103,3 +103,26 @@ int main()
 	return 0;
 }
 ```
+####### reciprocal numbers
+```
+int rad = 1;
+int rev(int a)
+{
+	if (a == 0)
+	{
+		return 0;
+	}
+	else
+	{
+		int result = rev(a / 10) + (a % 10) * rad;
+		rad *= 10;
+		return result;
+	}
+}
+int main()
+{
+	int n;
+	cin >> n;
+	cout << rev(n);
+}
+```
