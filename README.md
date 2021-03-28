@@ -81,7 +81,7 @@ int main()
  
 	r
 ```
-###### Hanoi
+##### Hanoi
 ```
 void Hanoi(int a, char b, char c, char d)
 {
@@ -103,7 +103,7 @@ int main()
 	return 0;
 }
 ```
-####### reciprocal numbers
+###### reciprocal numbers
 ```
 int rad = 1;
 int rev(int a)
